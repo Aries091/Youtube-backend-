@@ -3,7 +3,7 @@ import connectDB from './db/index.js';
 import { app } from './app.js'; // Assuming app is exported from './app.js'
 
 // Load environment variables
-dotenv.config({ path: './env' });
+dotenv.config({ path: './.env' });
 
 // Connect to the database and start the server
 connectDB()
