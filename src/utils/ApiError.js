@@ -6,7 +6,7 @@ constructor (
     statusCode,
     message="something went wrong",
     errors=[],
-    statck=""
+    stack=""
 ){
     super(message);
     this.statusCode = statusCode;
@@ -15,8 +15,8 @@ constructor (
     this.success=false
     this.errors=errors
   
-    if(statck){
-        this.stack=statck
+    if(stack){
+        this.stack=stack
 
     }
     else{
